@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inicio</title>
-    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="../style.css"></link>
 </head>
 <body>
     <ul>
@@ -14,7 +14,7 @@
         <li><a href="#contact">Picolés</a></li>
         <li><a href="#contact">Materiais</a></li>      
         <li><a href="#contact">Conta</a></li>      
-        <li style="float:right"><a class="active" href="#about">Entrar</a></li>
+        <li style="float:right"><a class="active" href="login.php">Entrar</a></li>
       </ul>
 </body>
 </html>
