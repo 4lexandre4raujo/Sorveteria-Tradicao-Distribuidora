@@ -1,4 +1,5 @@
 <?php
+include("barraNavegacao.php");
 include("../conexao.php");
 session_start();
 
@@ -49,15 +50,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrar</title>
-    <link rel="stylesheet" href="../style.css"></link>
+    <title>entrar</title>
 </head>
 <body>
-    <div class="main">
-     <div class="container_back">
+<div class="main">
+    <div class="container">
         <form action="" method="post">
-            <div class="container_form">
-            <div class="container_img">
+            <div class="container-form">
+            <div class="imagem" align="center">
                 <img src="../img/logo.png" height="85" width="90">
             </div>
                 <h3 align="center">login</h3>
@@ -72,7 +72,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
                 <input type="submit" name="login" id="submit" value="Entrar">
         </form>
-     </div>
     </div>
+</div>
 </body>
 </html>
