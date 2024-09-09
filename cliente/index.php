@@ -1,20 +1,183 @@
+<?php
+include("barraNavegacao.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inicio</title>
-    <link rel="stylesheet" href="../style.css"></link>
 </head>
 <body>
-    <ul>
-        <li><a href="#home">Início</a></li>
-        <li><a href="#news">Sorvetes</a></li>
-        <li><a href="#contact">Moreninhas</a></li>
-        <li><a href="#contact">Picolés</a></li>
-        <li><a href="#contact">Materiais</a></li>      
-        <li><a href="#contact">Conta</a></li>      
-        <li style="float:right"><a class="active" href="login.php">Entrar</a></li>
-      </ul>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <a href="#">Ver mais >></a>
+    </div>
+    <h4>Promoção</h4>
+    <div class="centralize">
+        <img class="imagem" src="../img/promocao.png"  alt="Imagem de capa do card">
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img class="card-img-top" src="../img/logo.png" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Título do card</h5>
+                <br>
+                <p class="card-text">R$86,00</p>
+                <a href="#" class="btn btn-primary">Visitar</a>
+                <a href="#" class="btn btn-primary">Adicionar</a>
+            </div>
+        </div>
+        <a href="#">Ver mais >></a>
+    </div>
 </body>
 </html>
